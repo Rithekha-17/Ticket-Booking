@@ -1,33 +1,50 @@
-This is the readme file for the project Movie Ticket Booking System
+# Movie Ticket Booking System
 
-Movie Ticket Booking System
+A Java application that simulates a movie ticket booking system. This system allows users to log in, view available movies, make bookings, select seats, cancel bookings, and view their booking history.
 
-Description
-This Java application simulates a movie ticket booking system. Users can log in, view available movies, make bookings, select seats, cancel bookings and view his/her booking history.
+## Description
 
-Requirements
-1. Java Development Kit (JDK)
+The Movie Ticket Booking System provides a user-friendly interface where:
+- Users can log in and authenticate via a stored `users.txt` file.
+- View available movies, including their details.
+- Book tickets for a selected movie, including choosing the seats.
+- Cancel a booking and update the system accordingly.
+- View their booking history.
 
-Installation
-1. Clone the repository.
-2. Ensure Java is installed.
-3. Compile and run the `TicketSystem` class.
+## Features
 
-Steps to execute:
-1. Once the TicketSystem class is compiled and run, it will ask you to login.
-   (You have to use the data in users.txt to login (username,password))
-2. Once logged in, you will be presented with a set of 4 options
-	1. View Available Movies
-	2. Book a Show
-	3. Cancel Booking
-	4. View Booking History
-3. If 1 is entered, you will be able to see all the available movies.
-4. If 2 is entered, you will be asked to enter the movie id, no.of seats, the seats and confirmation for booking. If successful, booking will be made and 	booking data will be stored in userhistory.txt.
-5. If 3 is entered, you will be asked for the bookingId for cancellation. Cancellation will be done, and the no.of seats and the seat matrix will be 	updated.
-6. If 4 is entered, you can see all the booking you have made.
-7. If 0 is entered, you can logout.
+- **User Authentication**: Users can log in with their username and password.
+- **Movie Listings**: View available movies and their showtimes.
+- **Booking Functionality**: Select and reserve movie seats.
+- **Booking Cancellation**: Users can cancel their existing bookings and free up seats.
+- **Booking History**: View past bookings made by the user.
 
-While cloning the repository, 
-Make sure that inside package, MovieSystem, 4 java files are present(i.e, User.java, Booking.java, TicketSystem.java and Movie.java) 
-Make sure there are 6 text files(users.txt, seatmatrix.txt, kollywood.txt, hollywood.txt, userhistory.txt, last_booking_id.txt) and one java file which contains the main(MiniProject.java) are present outside the package but inside a folder.
+## Requirements
 
+- **Java Development Kit (JDK)**: Ensure you have JDK installed to compile and run the program.
+
+## Installation
+
+### Steps to Execute
+
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/your-username/movie-ticket-booking-system.git
+   cd movie-ticket-booking-system
+2. Ensure Java is installed: Check if Java is installed using the command:
+	java -version
+3. Compile the Java classes:
+
+	Inside the MovieSystem package, you should have the following Java files:
+	
+		User.java
+		
+		Booking.java
+		
+		TicketSystem.java
+		
+		Movie.java
+	
+	Outside the package, the main file should be MiniProject.java.
+
+4. java MovieSystem.TicketSystem
