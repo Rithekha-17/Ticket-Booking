@@ -68,8 +68,11 @@ movie-ticket-booking-system/
 │   └── TicketSystem.java
 ├── MiniProject.java
 ├── users.txt
-├── movies.txt
-└── bookings.txt
+├── kollywood.txt
+├── hollywood.txt
+└── userhistory.txt
+├── seatmatrix.txt
+└── last_booking_id.txt
 ```
 
 ---
